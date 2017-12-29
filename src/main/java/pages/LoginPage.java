@@ -17,7 +17,7 @@ public class LoginPage extends LeafTapsWrappers{
 		
 	}
 	public LoginPage enterUserName(String data){
-		enterById("username1", data);
+		enterById("username", data);
 		return this;
 	}
 	public LoginPage enterPassword(String data){
